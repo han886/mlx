@@ -1,0 +1,293 @@
+.icon-nan{
+  color: skyblue;
+}
+.home{
+  background-color: #f7f7f7;
+}
+/*home -  banner   begin*/
+
+.home_banner img {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+.about_button {
+  border-radius: 6px;
+  width: 10%;
+  height: 5%;
+  left: 48%;
+  bottom:9%;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ff3c78;
+  font: 24px "Microsoft YaHei";
+  position: absolute;
+  color: #ff3c78;
+
+}
+
+.about_button a {
+  width: 100%;
+  height: 100%;
+  color: #ff3c78;
+  line-height: 50px;
+}
+
+/* home - banner end*/
+
+/*home - content begin*/
+.home_content {
+  width: 100%;
+  height: auto;
+}
+
+.travel_hot, .travel_guide {
+  width: 100%;
+  height: auto;
+  background-color: #f7f7f7;
+}
+
+/*hot - top*/
+.travel_hot .tra_hot_top, .travel_guide .tra_guide_top {
+  width: 100%;
+  height: 178px;
+  font-size: 33px;
+  color: #515151;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.travel_hot .tra_hot_top :nth-child(1), .travel_guide .tra_guide_top:nth-child(1) {
+  padding-top: 86px;
+}
+
+/*hot - tab */
+.travel_hot .tra_hot_tab {
+  width: 100%;
+  margin-top: 46px;
+  text-align: center;
+
+}
+
+.travel_hot .tra_hot_tab a {
+  display: inline-block;
+  width: 112px;
+  line-height: 32px;
+  color: #989898;
+  border: 1px solid #989898;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+/**/
+.travel_hot .tra_hot_content, .travel_guide .tra_guide_content {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  /*margin-bottom: 50px;*/
+}
+
+.travel_hot .tra_hot_content ul, .travel_guide .tra_guide_content ul {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.tra_hot_content ul li, .travel_guide .tra_guide_content ul li {
+  width: 318px;
+  height: 280px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.travel_hot .tra_hot_content ul li a {
+  width: 100%;
+  position: relative;
+}
+.travel_hot .tra_hot_content ul li  .hotpic img{
+  width: 100%;
+  height: 188px;
+}
+
+.travel_hot .tra_hot_content ul li a:nth-child(1) {
+  display: inline-block;
+  height: 188px;
+}
+
+.travel_hot .tra_hot_content ul li a:nth-child(2) {
+  display: inline-block;
+  line-height: 44px;
+  text-align: center;
+  color: #515151;
+  font-size: 26px;
+}
+
+.travel_hot .tra_hot_content ul li .tra_hot_con {
+  position: absolute;
+  top: 0;
+  background-color: #db0a0a;
+  padding-right: 20px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 0 5px 20px 0;
+  color: #ffffff;
+}
+
+.travel_hot .tra_hot_content ul li .travel_hot_good {
+  width: 100%;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-between;
+  color: #c80000;
+  font-size: 14px;
+}
+
+.travel_hot .tra_hot_content ul li .travel_hot_good span {
+  margin: 6px;
+}
+
+.travel_hot .tra_hot_footer, .travel_guide .tra_guide_footer {
+  width: 100%;
+  text-align: center;
+}
+
+.travel_hot .tra_hot_footer button, .travel_guide .tra_guide_footer button {
+  width: 194px;
+  line-height: 40px;
+  font-size: 26px;
+  background-color: #ff3737;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.travel_hot .tra_hot_footer button:focus {
+  outline-color: #ffffff;
+}
+
+.travel_hot .tra_hot_footer button .tra_hot_f_b {
+  margin-left: 10px;
+}
+
+.travel_hot .tra_hot_footer .tra_hot_f_img {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.travel_hot .tra_hot_footer .tra_hot_f_img img{
+  width: 100%;
+}
+/*2*/
+
+.travel_guide .tra_guide_content ul li {
+  height: auto;
+  border-radius: 0 0 14px 14px;
+  margin-bottom: 60px;
+}
+
+.travel_guide .tra_guide_content .tra_guide_msg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #515151;
+}
+
+.travel_guide .tra_guide_msg span {
+  width: 100%;
+  text-align: center;
+  display: block;
+
+}
+
+.travel_guide .tra_guide_content .tra_guide_msg .guidePic {
+  width: 100%;
+  border-radius: 50%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.travel_guide .tra_guide_content .tra_guide_msg .guidePic img {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+}
+
+.travel_guide .guideName {
+  font-size: 34px;
+}
+.travel_guide .tra_guide_content .tra_guide_msg .tra_guide_isConfirm {
+  width: 60px;
+  height: 26px;
+  color: #c30000;
+  border: 1px solid #c30000;
+  font-size: 18px;
+}
+.travel_guide .tra_guide_content .tra_guide_msg .tra_guide_isConfirm_long{
+  width: 90px;
+  height: 26px;
+  color: #c30000;
+  border: 1px solid #c30000;
+  font-size: 18px;
+}
+
+.travel_guide .tra_guide_content .tra_guide_msg .tra_guide_ability {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.travel_guide .tra_guide_content .tra_guide_wordB {
+  height: 1px;
+  width: 80% !important;
+  border: 1px dashed #d7d7d7;
+}
+
+.travel_guide .tra_guide_content .tra_guide_word {
+  padding: 14px 16px 0 24px;
+  font-size: 18px;
+  color: #515151;
+  text-align: left;
+  ext-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.travel_guide .tra_guide_content .tra_guide_price {
+  font-size: 34px;
+  background-color: #ff3737;
+  color: #ffffff;
+  border-radius: 0 0 14px 14px;
+}
+/*3*/
+.travel_hot_num,.travel_hot_sel{
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+.travel_hot_sel{
+  padding-left: 14px;
+  color: #c80000;
+}
+.travel_hot_num{
+  color: #a8a8a8;
+  margin-left:140px;
+}
+/*content - view*/
+
+/*home - content end*/
